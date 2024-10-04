@@ -1,1 +1,1 @@
-"Rock Guess - Development " 
+"Rock Guess - Development" 
