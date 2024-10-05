@@ -2,6 +2,8 @@
           - "/random" - kdyz to das bez parametru odpovi to pouze s jednim random mineralem, jinak parametr size odpovi se size poctem random mineralu (viz priklady struktur nakonci)
           - "/" nebo "/whole" - odpovi s celym listem vsech mineralu (abecedne)
 
+~~~ list s nazvem "aliases" u kazdeho mineralu je pak na porovnani kdybysme jeste chteli udelat mod kde dostanes obrazek a ty musis napsat nazev tak aby se to lepe porovnavalo ten input se spravnou odpovedi, nekdy to muze mit vice nazvu a proto to je list, kdyztak na to jeste napisu tu javascript funkci ~~~
+
 priklady:
     - "/random?size=3":
         {
