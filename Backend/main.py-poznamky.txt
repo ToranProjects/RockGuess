@@ -1,0 +1,37 @@
+3 funkce: - "/image" - ma 1 parametr filename -> image podle jmena (pr. /image?filename=sfalerit.jpg - posle ciste jenom obrazek sfaleritu)
+          - "/random" - kdyz to das bez parametru odpovi to pouze s jednim random mineralem, jinak parametr size odpovi se size poctem random mineralu (viz priklady struktur nakonci)
+          - "/" nebo "/whole" - odpovi s celym listem vsech mineralu (abecedne)
+
+priklady:
+    - "/random?size=3":
+        {
+            "0": {
+                "name": "Galenit",
+                "aliases": [
+                "galenit"
+                ],
+                "paths": [
+                "galenit.jpg"
+                ]
+            },
+            "1": {
+                "name": "Mastek",
+                "aliases": [
+                "mastek"
+                ],
+                "paths": [
+                "mastek.jpg"
+                ]
+            },
+            "2": {
+                "name": "Tygří oko",
+                "aliases": [
+                "tygrioko"
+                ],
+                "paths": [
+                "tygri_oko.jpg"
+                ]
+            }
+        }
+    - "/" nebo "/whole":
+        proste data.json soubor v tyhle slozce
