@@ -3,8 +3,15 @@
 }
 
 h2 {
-    margin-top: 0;
-    margin-bottom: 0px;
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 5%;
+    color: black;
+    /* padding: 2px; */
+    user-select: none;
+    height: auto;
+    margin-top: -3vh;
+    margin-bottom: -3vh;
 }
 
 img {
@@ -28,7 +35,7 @@ img {
     /* margin-bottom: 5vh; */
 }
 
-button {
+.buttonChoose {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -44,12 +51,18 @@ button {
     transition: all .1s ease-in-out;
 }
 
-button:hover {
+.buttonChoose:hover {
     background-color: #cba2d5;
 }
 
-button:active {
+.buttonChoose:active {
     background-color: #93779b;
+}
+
+.buttonReturn{
+    position: absolute;
+    font-size: 1vh;
+    padding: 1vh;
 }
 
 .result {

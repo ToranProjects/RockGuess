@@ -7,13 +7,17 @@ h1 {
 }
 
 h2 {
-    font-size: 500%;
+    font-size: 5vw;
     text-align: center;
     padding-top: 5%;
     color: black;
-    padding: 2px;
+    /* padding: 2px; */
     user-select: none;
+    height: auto;
+    margin-top: -3vh;
+    margin-bottom: -3vh;
 }
+
 
 a {
     font-size: 100%;
