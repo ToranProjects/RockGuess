@@ -18,18 +18,8 @@ h2 {
     margin-bottom: -3vh;
 }
 
-
-a {
-    font-size: 100%;
-    color: black;
-    text-decoration: none;
-    animation: 3s linear 0s font-size;
+img {
     user-select: none;
-    transition: all .1s ease-in-out;
-}
-
-a:hover {
-    font-size: 110%;
 }
 
 .title {
@@ -45,7 +35,25 @@ a:hover {
     font-size: 70px;
     text-align: center;
 }
-
-img {
+.modeChoose{
+    font-size: 100%;
+    color: black;
+    text-decoration: none;
+    animation: 3s linear 0s font-size;
     user-select: none;
+    transition: all .1s ease-in-out;
+}
+
+.modeChoose:hover {
+    font-size: 110%;
+}
+
+.gitCredits{
+    color: rgb(171, 170, 170);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 8px;
+    text-decoration: none;
+    
 }
