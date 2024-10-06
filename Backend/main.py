@@ -10,10 +10,10 @@ data = {}
 # Allow all CORS requests
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  
+    allow_origins=["*"],
     allow_credentials=True,
-    allow_methods=["*"],  
-    allow_headers=["*"],  
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 with open(os.path.join(os.getcwd(), "data.json"), encoding="UTF-8") as file:
@@ -28,7 +28,6 @@ def f(filename:str):
 def f(size: int | None = None):
     d = data.copy()
     if size:
-        d = data
         res = {}
         for i in range(0, size):
             image_data, d = get_random_image_data(dat=d)
@@ -51,4 +50,4 @@ def get_random_image_data(dat=data):
     return obj, dat
 
 if __name__ == "__main__":
-    uvicorn.run(app, port=8000)
+    uvicorn.run(app, port=9999)
