@@ -1,7 +1,7 @@
 data = {}
 
 // url = "http://county-contracts.gl.at.ply.gg:7614"
-url = "/api";
+url = "";
 
 async function getData() {
     res = fetch(url + "/whole");

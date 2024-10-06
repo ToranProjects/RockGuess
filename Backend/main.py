@@ -16,12 +16,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-with open(os.path.join(os.getcwd(), "data.json"), encoding="UTF-8") as file:
+with open(os.path.join(os.getcwd(), "Backend", "data.json"), encoding="UTF-8") as file:
     data = json.loads(file.read())
 
 @app.get("/image")
 def f(filename:str):
-    path = os.path.join(os.getcwd(), "Images", filename)
+    path = os.path.join(os.getcwd(), "Backend", "Images", filename)
     return FileResponse(status_code=200, path=path)
 
 @app.get("/random")
@@ -38,7 +38,31 @@ def f(size: int | None = None):
 
 @app.get("/")
 def f():
-    return JSONResponse(data, status_code=200)
+    return FileResponse(os.path.join(os.getcwd(), "Frontend", "index.html"))
+
+@app.get("/style.css")
+def f():
+    return FileResponse(os.path.join(os.getcwd(), "Frontend", "style.css"))
+
+@app.get("/browse-mode/index.html")
+def f():
+    return FileResponse(os.path.join(os.getcwd(), "Frontend", "browse-mode", "index.html"))
+
+@app.get("/browse-mode/browse.js")
+def f():
+    return FileResponse(os.path.join(os.getcwd(), "Frontend", "browse-mode", "browse.js"))
+
+@app.get("/kahot-mode/index.html")
+def f():
+    return FileResponse(os.path.join(os.getcwd(), "Frontend", "kahot-mode", "index.html"))
+
+@app.get("/kahot-mode/kahoot.js")
+def f():
+    return FileResponse(os.path.join(os.getcwd(), "Frontend", "kahot-mode", "kahoot.js"))
+
+@app.get("/kahot-mode/kahoot-styles.css")
+def f():
+    return FileResponse(os.path.join(os.getcwd(), "Frontend", "kahot-mode", "kahoot-styles.css"))
 
 @app.get("/whole")
 def f():
