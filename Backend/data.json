@@ -1,0 +1,464 @@
+{
+    "0": {
+        "name": "Achát",
+        "aliases": [
+            "achat"
+        ],
+        "paths": [
+            "achat.jpg"
+        ]
+    },
+    "1": {
+        "name": "Ametyst",
+        "aliases": [
+            "ametyst"
+        ],
+        "paths": [
+            "ametyst.jpg"
+        ]
+    },
+    "2": {
+        "name": "Antimonit",
+        "aliases": [
+            "antimonit"
+        ],
+        "paths": [
+            "antimonit.jpg"
+        ]
+    },
+    "3": {
+        "name": "Apatit",
+        "aliases": [
+            "apatit"
+        ],
+        "paths": [
+            "apatit.jpg"
+        ]
+    },
+    "4": {
+        "name": "Aragonit",
+        "aliases": [
+            "aragonit"
+        ],
+        "paths": [
+            "aragonit.jpg"
+        ]
+    },
+    "5": {
+        "name": "Azurit",
+        "aliases": [
+            "azurit"
+        ],
+        "paths": [
+            "azurit.jpg"
+        ]
+    },
+    "6": {
+        "name": "Biotit",
+        "aliases": [
+            "biotit"
+        ],
+        "paths": [
+            "biotit.jpg"
+        ]
+    },
+    "7": {
+        "name": "Cinabarit (Rumělka)",
+        "aliases": [
+            "cinabarit",
+            "rumelka"
+        ],
+        "paths": [
+            "cinabarit.jpg"
+        ]
+    },
+    "8": {
+        "name": "Citrín",
+        "aliases": [
+            "citrin"
+        ],
+        "paths": [
+            "citrin.jpg"
+        ]
+    },
+    "9": {
+        "name": "Fluorit (Kazivec)",
+        "aliases": [
+            "fluorit",
+            "kazivec"
+        ],
+        "paths": [
+            "fluorit.jpg"
+        ]
+    },
+    "10": {
+        "name": "Fosforit",
+        "aliases": [
+            "fosforit"
+        ],
+        "paths": [
+            "fosforit.jpg"
+        ]
+    },
+    "11": {
+        "name": "Galenit",
+        "aliases": [
+            "galenit"
+        ],
+        "paths": [
+            "galenit.jpg"
+        ]
+    },
+    "12": {
+        "name": "Halit (Sůl kamenná)",
+        "aliases": [
+            "halit",
+            "sulkamenna"
+        ],
+        "paths": [
+            "halit.jpg"
+        ]
+    },
+    "13": {
+        "name": "Hematit (Krevel)",
+        "aliases": [
+            "hematit",
+            "krevel"
+        ],
+        "paths": [
+            "hematit.jpg"
+        ]
+    },
+    "14": {
+        "name": "Chalcedon",
+        "aliases": [
+            "chalcedon"
+        ],
+        "paths": [
+            "chalcedon.jpg"
+        ]
+    },
+    "15": {
+        "name": "Chalkopyrit",
+        "aliases": [
+            "chalkopyrit"
+        ],
+        "paths": [
+            "chalkopyrit.jpg"
+        ]
+    },
+    "16": {
+        "name": "Jantar (Sukcinit)",
+        "aliases": [
+            "jantar",
+            "sukcinit"
+        ],
+        "paths": [
+            "jantar.jpg"
+        ]
+    },
+    "17": {
+        "name": "Jaspis",
+        "aliases": [
+            "jaspis"
+        ],
+        "paths": [
+            "jaspis.jpg"
+        ]
+    },
+    "18": {
+        "name": "Kalcit",
+        "aliases": [
+            "kalcit"
+        ],
+        "paths": [
+            "kalcit.jpg"
+        ]
+    },
+    "19": {
+        "name": "Křemen",
+        "aliases": [
+            "kremen"
+        ],
+        "paths": [
+            "kremen.jpg"
+        ]
+    },
+    "20": {
+        "name": "Křišťál",
+        "aliases": [
+            "kristal"
+        ],
+        "paths": [
+            "kristal.jpg"
+        ]
+    },
+    "21": {
+        "name": "Limonit",
+        "aliases": [
+            "limonit",
+            "hnedel"
+        ],
+        "paths": [
+            "limonit.jpg"
+        ]
+    },
+    "22": {
+        "name": "Magnetit (Magnetovec)",
+        "aliases": [
+            "magnetit",
+            "magnetovec"
+        ],
+        "paths": [
+            "magnetit.jpg"
+        ]
+    },
+    "23": {
+        "name": "Magnezit",
+        "aliases": [
+            "magnezit"
+        ],
+        "paths": [
+            "magnezit.jpg"
+        ]
+    },
+    "24": {
+        "name": "Malachit",
+        "aliases": [
+            "malachit"
+        ],
+        "paths": [
+            "malachit.jpg"
+        ]
+    },
+    "25": {
+        "name": "Marakzit",
+        "aliases": [
+            "markazit"
+        ],
+        "paths": [
+            "markazit.jpg"
+        ]
+    },
+    "26": {
+        "name": "Mastek",
+        "aliases": [
+            "mastek"
+        ],
+        "paths": [
+            "mastek.jpg"
+        ]
+    },
+    "28": {
+        "name": "Muskovit",
+        "aliases": [
+            "muskovit"
+        ],
+        "paths": [
+            "muskovit.jpg"
+        ]
+    },
+    "29": {
+        "name": "Olivín",
+        "aliases": [
+            "olivin"
+        ],
+        "paths": [
+            "olivin.jpg"
+        ]
+    },
+    "30": {
+        "name": "Opál drahý",
+        "aliases": [
+            "opaldrahy"
+        ],
+        "paths": [
+            "opal_drahy.jpg"
+        ]
+    },
+    "31": {
+        "name": "Oplál dřevitý",
+        "aliases": [
+            "opaldrevity"
+        ],
+        "paths": [
+            "opal_drevity.jpg"
+        ]
+    },
+    "32": {
+        "name": "Opál obecný",
+        "aliases": [
+            "opalobecny"
+        ],
+        "paths": [
+            "opal_obecny.jpg"
+        ]
+    },
+    "33": {
+        "name": "Ortoklas",
+        "aliases": [
+            "ortoklas"
+        ],
+        "paths": [
+            "ortoklas.jpg"
+        ]
+    },
+    "34": {
+        "name": "Pazourek",
+        "aliases": [
+            "pazourek"
+        ],
+        "paths": [
+            "pazourek.jpg"
+        ]
+    },
+    "35": {
+        "name": "Pyrit",
+        "aliases": [
+            "pyrit"
+        ],
+        "paths": [
+            "pyrit.jpg"
+        ]
+    },
+    "36": {
+        "name": "Pyrop (Český granát)",
+        "aliases": [
+            "pyrop",
+            "ceskygranat"
+        ],
+        "paths": [
+            "pyrop.jpg"
+        ]
+    },
+    "37": {
+        "name": "Pyrrhotin",
+        "aliases": [
+            "pyrrhotin"
+        ],
+        "paths": [
+            "pyrrhotin.jpg"
+        ]
+    },
+    "38": {
+        "name": "Rohovec",
+        "aliases": [
+            "rohovec"
+        ],
+        "paths": [
+            "rohovec.jpg"
+        ]
+    },
+    "39": {
+        "name": "Růženín",
+        "aliases": [
+            "ruzenin"
+        ],
+        "paths": [
+            "ruzenin.jpg"
+        ]
+    },
+    "40": {
+        "name": "Sádrovec",
+        "aliases": [
+            "sadrovec"
+        ],
+        "paths": [
+            "sadrovec_1.jpg"
+        ]
+    },
+    "41": {
+        "name": "Sádrovec (Mariánské sklo)",
+        "aliases": [
+            "sadrovec",
+            "marianskesklo"
+        ],
+        "paths": [
+            "sadrovec_2.jpg"
+        ]
+    },
+    "42": {
+        "name": "Sfalerit",
+        "aliases": [
+            "sfalerit"
+        ],
+        "paths": [
+            "sfalerit.jpg"
+        ]
+    },
+    "43": {
+        "name": "Siderit (Ocelek)",
+        "aliases": [
+            "siderit",
+            "ocelek"
+        ],
+        "paths": [
+            "siderit.jpg"
+        ]
+    },
+    "44": {
+        "name": "Síra",
+        "aliases": [
+            "sira"
+        ],
+        "paths": [
+            "sira.jpg"
+        ]
+    },
+    "45": {
+        "name": "Slída",
+        "aliases": [
+            "slida",
+            "slidasvetla"
+        ],
+        "paths": [
+            "slida.jpg"
+        ]
+    },
+    "46": {
+        "name": "Turmalín",
+        "aliases": [
+            "turmalin"
+        ],
+        "paths": [
+            "turmalin_1.jpg",
+            "turmalin_2.jpg"
+        ]
+    },
+    "47": {
+        "name": "Tygří oko",
+        "aliases": [
+            "tygrioko"
+        ],
+        "paths": [
+            "tygri_oko.jpg"
+        ]
+    },
+    "48": {
+        "name": "Záhněda",
+        "aliases": [
+            "zahneda"
+        ],
+        "paths": [
+            "zahneda.jpg"
+        ]
+    },
+    "49": {
+        "name": "Živec",
+        "aliases": [
+            "zivec"
+        ],
+        "paths": [
+            "zivec.jpg"
+        ]
+    },
+    "50": {
+        "name": "Žula",
+        "aliases": [
+            "zula"
+        ],
+        "paths": [
+            "zula.jpg"
+        ]
+    }
+}
