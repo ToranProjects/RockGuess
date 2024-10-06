@@ -2,18 +2,6 @@
     user-select: none;
 }
 
-h2 {
-    font-size: 5vw;
-    text-align: center;
-    padding-top: 5%;
-    color: black;
-    /* padding: 2px; */
-    user-select: none;
-    height: auto;
-    margin-top: -3vh;
-    margin-bottom: -3vh;
-}
-
 img {
     margin-top: 0vh;
     max-height: 37vh;
@@ -59,11 +47,28 @@ img {
     background-color: #93779b;
 }
 
-.buttonReturn{
+.buttonReturn {
     position: absolute;
-    font-size: 1vh;
-    padding: 1vh;
+    font-size: 2vw;
+    padding: 2vw;
+    margin-top: 3vh;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border-radius: 10px;
+    overflow: visible;
+    background-color: #E4B1F0;
+    transition: all .1s ease-in-out;
 }
+
+.buttonReturn:hover {
+    background-color: #cba2d5;
+}
+
+.buttonReturn:active {
+    background-color: #93779b;
+}
+
 
 .result {
     font-family: "Oswald", sans-serif;

@@ -1,5 +1,5 @@
 h1 {
-    font-size: 700%;
+    font-size: 12vh;
     text-align: center;
     padding-top: 5%;
     color: black;
@@ -15,7 +15,7 @@ h2 {
     user-select: none;
     height: auto;
     margin-top: -3vh;
-    margin-bottom: -3vh;
+    margin-bottom: 3vh;
 }
 
 
@@ -42,10 +42,32 @@ a:hover {
     font-family: "Protest Strike", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 70px;
+    font-size: 7vh;
     text-align: center;
 }
 
 img {
     user-select: none;
+}
+
+.buttonReturn {
+    position: absolute;
+    font-size: 2vw;
+    padding: 2vw;
+    margin-top: 3vh;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border-radius: 10px;
+    overflow: visible;
+    background-color: #E4B1F0;
+    transition: all .1s ease-in-out;
+}
+
+.buttonReturn:hover {
+    background-color: #cba2d5;
+}
+
+.buttonReturn:active {
+    background-color: #93779b;
 }
