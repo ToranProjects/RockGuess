@@ -16,18 +16,18 @@ app.add_middleware(
     allow_headers=["*"],  
 )
 
-with open(os.path.join(os.getcwd(), "Backend", "data.json"), encoding="UTF-8") as file:
+with open(os.path.join(os.getcwd(), "data.json"), encoding="UTF-8") as file:
     data = json.loads(file.read())
 
 @app.get("/image")
 def f(filename:str):
-    path = os.path.join(os.getcwd(), "Backend", "Images", filename)
+    path = os.path.join(os.getcwd(), "Images", filename)
     return FileResponse(status_code=200, path=path)
 
 @app.get("/random")
 def f(size: int | None = None):
+    d = data.copy()
     if size:
-        d = data
         res = {}
         for i in range(0, size):
             image_data, d = get_random_image_data(dat=d)
@@ -50,4 +50,4 @@ def get_random_image_data(dat=data):
     return obj, dat
 
 if __name__ == "__main__":
-    uvicorn.run(app, port=8000)
+    uvicorn.run(app, port=9999)
