@@ -1,4 +1,4 @@
-url = "http://county-contracts.gl.at.ply.gg:7614";
+url = "https://county-contracts.gl.at.ply.gg:7614";
 
 correct = -1;
 correct_name = "";
