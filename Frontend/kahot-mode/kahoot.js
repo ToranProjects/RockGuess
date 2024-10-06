@@ -1,5 +1,5 @@
-url = "http://county-contracts.gl.at.ply.gg:7614";
-// url = "/redirect";
+// url = "http://county-contracts.gl.at.ply.gg:7614";
+url = "/api/";
 
 correct = -1;
 correct_name = "";
