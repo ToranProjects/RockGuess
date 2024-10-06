@@ -1,7 +1,7 @@
 data = {}
 
-// url = "https://county-contracts.gl.at.ply.gg:7614"
-url = "/redirect";
+url = "http://county-contracts.gl.at.ply.gg:7614"
+// url = "/redirect";
 
 async function getData() {
     res = fetch(url + "/whole");

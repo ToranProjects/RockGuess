@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/api/*"
+  to = "http://county-contracts.gl.at.ply.gg:7614/:splat"
+  status = 200
+  force = true
