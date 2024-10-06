@@ -1,10 +1,20 @@
 import os, uvicorn, json, random
 from fastapi import FastAPI
 from fastapi.responses import FileResponse, JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
 data = {}
+
+# Allow all CORS requests
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  
+    allow_credentials=True,
+    allow_methods=["*"],  
+    allow_headers=["*"],  
+)
 
 with open(os.path.join(os.getcwd(), "Backend", "data.json"), encoding="UTF-8") as file:
     data = json.loads(file.read())
