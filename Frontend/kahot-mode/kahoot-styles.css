@@ -34,7 +34,7 @@ img {
     margin: 1%;
     border-radius: 10px;
     font-size: 150%;
-    font-size: clamp(12px, 2vw, 24px);
+    font-size: clamp(16px, 2vw, 32px);
     overflow: visible;
     background-color: #E4B1F0;
     transition: all .1s ease-in-out;
