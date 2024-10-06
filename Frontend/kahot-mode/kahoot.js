@@ -41,4 +41,8 @@ function clearResult() {
     }, 3000);
 }
 
+function returnHome() {
+    window.location.assign('/');
+}
+
 generateQuestion();

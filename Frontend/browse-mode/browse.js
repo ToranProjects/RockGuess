@@ -33,4 +33,9 @@ async function getData() {
     }
 }
 
+function returnHome() {
+    window.location.assign('/');
+}
+
+
 getData()
