@@ -21,6 +21,7 @@ a {
     text-decoration: none;
     animation: 3s linear 0s font-size;
     user-select: none;
+    transition: all .1s ease-in-out;
 }
 
 a:hover {

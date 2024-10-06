@@ -20,6 +20,7 @@ async function generateQuestion() {
     document.getElementById("2").innerHTML = data["1"]["name"];
     document.getElementById("3").innerHTML = data["2"]["name"];
     document.getElementById("4").innerHTML = data["3"]["name"];
+    // document.getElementById("result").innerHTML = "";
 }
 
 function submit(i) {
@@ -29,7 +30,14 @@ function submit(i) {
     else {
         document.getElementById("result").innerHTML = "incorrect, correct answer: " + correct_name;
     }
+    clearResult();
     generateQuestion();
+}
+
+function clearResult() {
+    setTimeout(() => {
+        document.getElementById("result").innerHTML = "";
+    }, 3000);
 }
 
 generateQuestion();

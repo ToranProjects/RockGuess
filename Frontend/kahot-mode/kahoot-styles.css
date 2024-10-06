@@ -1,3 +1,7 @@
+* {
+    user-select: none;
+}
+
 h2 {
     margin-top: 0;
     margin-bottom: 0px;
@@ -5,7 +9,7 @@ h2 {
 
 img {
     margin-top: 0vh;
-    max-height: 40vh;
+    max-height: 37vh;
     min-height: 3vh;
     max-width: 90vw;
     border-radius: 10px;
@@ -27,7 +31,7 @@ img {
 button {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    font-style:normal;
+    font-style: normal;
     max-width: 50vw;
     min-width: 40vw;
     min-height: 13vh;
@@ -37,17 +41,26 @@ button {
     font-size: 150%;
     overflow: visible;
     background-color: #E4B1F0;
-  
-    
+    transition: all .1s ease-in-out;
 }
 
+button:hover {
+    background-color: #cba2d5;
+}
 
+button:active {
+    background-color: #93779b;
+}
 
 .result {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
-    font-style:normal;
+    font-style: normal;
     margin-top: 0px;
     font-size: 300%;
     text-align: center;
+}
+
+body {
+    overflow: hidden;
 }
