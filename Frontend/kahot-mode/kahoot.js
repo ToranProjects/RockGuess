@@ -1,11 +1,35 @@
-url = "http://county-contracts.gl.at.ply.gg:7614"
+url = "http://county-contracts.gl.at.ply.gg:7614";
 
-async function generateQuestion(){
+correct = -1;
+correct_name = "";
+
+async function generateQuestion() {
     res = fetch(url + "/random?size=4");
     d = await res;
     data = await d.json();
 
-    r = Math.floor(Math.random() * data["0"]["paths"].length);
-    img = url + "/image?filename=" + data["0"]["paths"][r];
-    
+    random_rock = Math.floor(Math.random() * Object.keys(data).length);
+    correct = random_rock;
+    correct_name = data[String(random_rock)]["name"];
+    img = url + "/image?filename=" + data[String(random_rock)]["paths"][0];
+
+    console.log(random_rock);
+
+    document.getElementById("question").src = img;
+    document.getElementById("1").innerHTML = data["0"]["name"];
+    document.getElementById("2").innerHTML = data["1"]["name"];
+    document.getElementById("3").innerHTML = data["2"]["name"];
+    document.getElementById("4").innerHTML = data["3"]["name"];
 }
+
+function submit(i) {
+    if (i == correct) {
+        document.getElementById("result").innerHTML = "correct";
+    }
+    else {
+        document.getElementById("result").innerHTML = "incorrect, correct answer: " + correct_name;
+    }
+    generateQuestion();
+}
+
+generateQuestion();

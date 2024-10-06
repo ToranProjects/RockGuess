@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../style.css">
-    
+    <link rel="stylesheet" href="kahoot-styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../style.css">
 </head>
+
 <body style="background-color: #FFE1FF;">
-    
+
     <h2 class="title">Choose the correct rock</h2>
     <!--TODO: Kahot rock choosing-->
-    <div>
-        <img>
+    <div class="image-div">
+        <img id="question">
     </div>
 
-    <script src="kahoot.js"></script> 
+    <div class="buttons-div">
+        <button id="1" onclick="submit(0)">1</button>
+        <button id="2" onclick="submit(1)">2</button><br>
+        <button id="3" onclick="submit(2)">3</button>
+        <button id="4" onclick="submit(3)">4</button>
+    </div>
+    <p id="result" class="result"></p>
+    <script src="kahoot.js"></script>
 </body>
+
 </html>

@@ -40,3 +40,7 @@ a:hover {
     font-size: 70px;
     text-align: center;
 }
+
+img {
+    user-select: none;
+}
