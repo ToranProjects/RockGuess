@@ -8,7 +8,7 @@ async function generateQuestion() {
     res = fetch(url + "/random");
     d = await res;
     data = await d.json();
-    console.log(data);
+    // console.log(data);
     correct_name = data["name"]
 
     img = url + "/image?filename=" + data["paths"][0];
@@ -26,7 +26,7 @@ function submit(i) {
     correct = false;
 
     t = data["aliases"]
-    console.log(i);
+    // console.log(i);
     for (j = 0; j < t.length; j++) {
         if (t[j] == i) {
             correct = true;
@@ -65,6 +65,5 @@ $(document).ready(function () {
     });
 
 });
-
 
 generateQuestion();

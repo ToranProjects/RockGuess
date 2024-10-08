@@ -325,7 +325,8 @@
         "name": "Pyrop (Český granát)",
         "aliases": [
             "pyrop",
-            "ceskygranat"
+            "ceskygranat",
+            "granatcesky"
         ],
         "paths": [
             "pyrop.jpg"
