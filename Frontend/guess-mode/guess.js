@@ -25,10 +25,13 @@ function editString(str) {
 function submit(i) {
     correct = false;
 
-    t = data["aliases"]
-    console.log(i);
+    t = data["aliases"];
+
+    i = editString(i);
+    // console.log(i);
+
     for (j = 0; j < t.length; j++) {
-        if (t[j] == editString(i)) {
+        if (t[j] == i) {
             correct = true;
         }
     }
