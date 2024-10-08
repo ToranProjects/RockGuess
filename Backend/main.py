@@ -64,6 +64,18 @@ def f():
 def f():
     return FileResponse(os.path.join(os.getcwd(), "Frontend", "kahot-mode", "kahoot-styles.css"))
 
+@app.get("/guess-mode/index.html")
+def f():
+    return FileResponse(os.path.join(os.getcwd(), "Frontend", "guess-mode", "index.html"))
+
+@app.get("/guess-mode/guess.js")
+def f():
+    return FileResponse(os.path.join(os.getcwd(), "Frontend", "guess-mode", "guess.js"))
+
+@app.get("/guess-mode/guess-styles.css")
+def f():
+    return FileResponse(os.path.join(os.getcwd(), "Frontend", "guess-mode", "guess-styles.css"))
+
 @app.get("/whole")
 def f():
     return JSONResponse(data, status_code=200)
