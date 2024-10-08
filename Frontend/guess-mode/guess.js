@@ -26,9 +26,9 @@ function submit(i) {
     correct = false;
 
     t = data["aliases"]
-    // console.log(i);
+    console.log(i);
     for (j = 0; j < t.length; j++) {
-        if (t[j] == i) {
+        if (t[j] == editString(i)) {
             correct = true;
         }
     }
