@@ -27,6 +27,7 @@ def f(filename:str):
 @app.get("/random")
 def f(size: int | None = None):
     d = data.copy()
+    print("test random funkce", len(d), len(data))
     if size:
         res = {}
         for i in range(0, size):
@@ -34,7 +35,7 @@ def f(size: int | None = None):
             res[i] = image_data
         return JSONResponse(res, status_code=200)
     else:
-        return JSONResponse(get_random_image_data()[0], status_code=200)
+        return JSONResponse(get_random_image_data(dat=d)[0], status_code=200)
 
 @app.get("/")
 def f():
@@ -80,7 +81,8 @@ def f():
 def f():
     return JSONResponse(data, status_code=200)
 
-def get_random_image_data(dat=data):
+def get_random_image_data(dat):
+    print(len(dat), len(data), dat.keys())
     r = random.randint(0, len(dat.keys()) - 1)
     obj = dat.pop(list(dat.keys())[r])
     return obj, dat
